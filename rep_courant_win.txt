@@ -1,0 +1,10 @@
+import os
+
+# Obtenez le chemin absolu du répertoire où se trouve votre script Python
+current_directory = os.path.dirname(os.path.abspath(__file__))
+
+# Définir le répertoire de travail (working directory) sur le répertoire actuel
+os.chdir(current_directory)
+
+# Votre code Python ici...
+
